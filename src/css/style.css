@@ -25,7 +25,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-height: 650px;
+    /* max-height: 650px; */
 }
 
 header .logo{
@@ -68,4 +68,52 @@ header li a{
     font-size: 15px;
     color: white;
     margin-top: 10px;
+}
+
+section.section-1{
+    width: 100%;
+    background-color: #472562;
+    padding: 20px 2%;
+}
+
+section.section-1 .container{
+    max-width: 1000px;
+}
+
+.text-section-1{
+    float: left;
+    width: 50%;
+    color: white;
+}
+
+.text-section-1 p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.text-section-1 ul li{
+    float: left;
+    width: 100%;
+}
+
+.btn-text{
+    background-color: #FF703D;
+    height: 44px;
+    width: 165px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+}
+
+.device-section-1{
+    float: left;
+    width: 50%;
+    height: 300px;
+    /* background-image: ; */
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
