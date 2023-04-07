@@ -38,17 +38,20 @@ header .logo{
 header nav{
     float: right;
 }
-
-header nav ul{
-    list-style: none;
+nav.mobile-menu{
+    display: none;
 }
 
-header nav li{
+header nav.desktop-menu ul{
+    list-style-type: none;
+}
+
+header nav.desktop-menu li{
     float: left;
     padding: 0 20px;
 }
 
-header li a{
+header nav.desktop-menu li a{
     text-decoration: none;
     color: white;
 }
@@ -73,7 +76,8 @@ header li a{
 section.section-1{
     width: 100%;
     background-color: #472562;
-    padding: 20px 2%;
+    padding: 0 2%;
+    height: 400px;
 }
 
 section.section-1 .container{
@@ -84,16 +88,29 @@ section.section-1 .container{
     float: left;
     width: 50%;
     color: white;
+    margin-top: 60px;
+    padding-left: 80px;
+    left: 40px;
+}
+
+.text-section-1 h2{
+    font-size: 26px;
 }
 
 .text-section-1 p{
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
+}
+
+.text-section-1 li{
+    list-style-position: inside;
+    font-size: 15px;
 }
 
 .text-section-1 ul li{
     float: left;
     width: 100%;
+    margin-top: 8px;
 }
 
 .btn-text{
@@ -111,9 +128,74 @@ section.section-1 .container{
 .device-section-1{
     float: left;
     width: 50%;
-    height: 300px;
+    height: 430px;
+    position: relative;
+    top: -30px;
     /* background-image: ; */
     background-color: green;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        width: 100%;
+        height: auto;
+        min-height: 90vh;
+        padding: 40px 2%;
+    }
+
+    nav.desktop-menu{
+        display: none;
+    }
+
+    nav.mobile-menu{
+        display: block;
+    }
+
+    .chamada1{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 100px 0;
+    }
+
+    .chamada1 h2{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    section.section-1{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+
+    .text-section-1{
+        width: 100%;
+        margin-top: 0;
+        padding-left: 0;
+        position: static;
+        float: none;
+        display: inline-block;
+    }
+
+    .text-section-1 ul{
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .text-section-1 ul li{
+        float: none;
+        text-align: left;
+    }
+
+    .btn-text{
+        display: inline-block;
+    }
+
+    .device-section-1{
+        display: none;
+    }
 }
