@@ -194,9 +194,114 @@ section.section-1 .container{
 }
 
 .section-2 img{
+    position: relative;
+    top: 100px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
     /* height: 550px; */
+}
+
+.section-3{
+    width: 100%;
+}
+
+.part1{
+    color: white;
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background: #835FA7;
+}
+
+.wraper-part1{
+    max-width: 600PX;
+    float: right;
+    padding-right: 30px;
+}
+
+.part1 h2{
+    font-style: italic;
+    font-size: 23px;
+}
+
+.part1 p{
+    font: 15px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.part2{
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background: white;
+}
+
+.sobre-autor{
+    float: left;
+    max-width: 600px;
+    padding-left: 30px;
+}
+
+.titulo-autor{
+    float: left;
+    width: 100%;
+}
+
+.wraper-titulo-autor{
+    /* width: calc(100% - 40px); */
+    float: left;
+}
+
+.titulo-autor h2{
+    color: #232323;
+    font-size: 25px;
+    /* float: left; */
+    padding-right: 20px;
+}
+
+.titulo-autor p{
+    color: #232323;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.titulo-autor .img-autor{
+    float: left;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -4px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.text-autor{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text-autor p{
+    color: #232323;
+    font-size: 15px;
+}
+
+.slider-bullets{
+    width: 100%;
+    float: left;
+    padding-left: 30px;
+    margin-top: 12px;
+}
+
+.slider-bullets span{
+    width: 16px;
+    height: 16px;
+    float: left;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: gray;
 }
 
 @media screen and (max-width:830px){
