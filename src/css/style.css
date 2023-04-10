@@ -216,7 +216,7 @@ section.section-1 .container{
 .wraper-part1{
     max-width: 600PX;
     float: right;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .part1 h2{
@@ -376,5 +376,22 @@ section.section-1 .container{
 
     .section-2{
         padding: 40px 2%;
+    }
+}
+
+@media screen and (max-width:580px){
+    .part1{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .part2{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .section-2 img{
+        top: 16px;
+        margin-top: 20px;
     }
 }
