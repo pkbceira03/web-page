@@ -304,6 +304,59 @@ section.section-1 .container{
     background-color: gray;
 }
 
+section.section-4{
+    background-color: #472563;
+    padding: 100px 0;
+}
+
+.form{
+    float: left;
+    width: 50%;
+    color: white;
+}
+
+.form h2{
+    font-size: 23px;
+}
+
+.form p{
+    font-size: 15px;
+}
+
+.form form{
+    margin-top: 15px;
+}
+
+.form form input[type=text]{
+    width: 100%;
+    max-width: 480px;
+    margin-top: 5px;
+    height: 58px;
+    padding-left: 58px;
+    line-height: 58px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.form form textarea{
+    width: 100%;
+    margin-top: 8px;
+    max-width: 480px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 160px;
+    padding-left: 15px;
+}
+
+.form form input[type=submit]{
+    border: 0;
+    background-color: #FF703D;
+    height: 44px;
+    width: 165px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
 @media screen and (max-width:830px){
     .chamada1{
         max-width: none;
