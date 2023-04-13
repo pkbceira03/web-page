@@ -362,6 +362,7 @@ section.section-4{
 .wraper-map{
     float: left;
     width: 50%;
+    padding: 0 10px;
     color: white;
 }
 
@@ -466,6 +467,39 @@ section.section-4{
 
     .section-2{
         padding: 40px 2%;
+    }
+
+    section.section-4 .container{
+        text-align: center;
+    }
+    
+    .form{
+        float: none;
+        width: 100%;
+    }
+
+    .form p{
+        display: inline-block;
+        float: none;
+    }
+
+    .wraper-map{
+        float: none;
+        width: 100%;
+        padding: 0 4%;
+        margin-top: 40px;
+    }
+
+    .wraper-map3{
+        display: inline-block;
+        max-width: none;
+        width: 80%;
+        padding-top: 80%;
+    }
+
+    .wraper-map2{
+        padding-top: 0;
+        height: 100%;
     }
 }
 
