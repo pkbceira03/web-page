@@ -237,10 +237,20 @@ section.section-1 .container{
     background: white;
 }
 
-.sobre-autor{
-    float: left;
+.slider{
     max-width: 600px;
     padding-left: 30px;
+    overflow: hidden;
+}
+
+.scroll-wraper{
+    width: 100%;
+}
+
+.sobre-autor{
+    float: left;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .titulo-autor{
